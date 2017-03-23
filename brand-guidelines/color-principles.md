@@ -23,9 +23,9 @@ A minimal palette, clear hierarchy, good information design, and ample white spa
 
 <h2 id="palette">Palette<span class="cf-code-link"><a href="https://github.com/cfpb/cf-theme-cfpb/blob/master/src/color-palette.less">View code <i class="cf-icon cf-icon-external-link"></i></a></span></h2>
 
-Our core color palette includes CFPB Green, black, and eight supporting colors.
+Our color palette includes CFPB Green, white, black as well as eight supporting colors and their tints.
 
-### Primary colors
+### Core colors
 
 {::nomarkdown}
 <div class="swatches">
@@ -60,7 +60,7 @@ Our core color palette includes CFPB Green, black, and eight supporting colors.
 
 ### Supporting colors
 
-These colors are used primarily as accent colors, and should be used to add variety to page content and illustrations. They should never overpower the core brand colors.
+Supporting colors are used to add variety to page content and illustrations.
 
 {::nomarkdown}
 <div class="swatches">
@@ -95,6 +95,8 @@ These colors are used primarily as accent colors, and should be used to add vari
 
 
 ### Tints
+
+Tints supplement the core and secondary colors and can be used to create visual cohesion. 
 
 {::nomarkdown}
     {% assign family = site.data.cfpb-brand-colors[1].family %}
