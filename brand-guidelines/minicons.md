@@ -29,7 +29,7 @@ Minicons are visually simple, quickly recognizable, and easy to understand. They
 ## Stylistic guidelines
 
 <div class="content-33 content-first">
-	
+
 ### Scaling
 
 #### Web scale
@@ -131,7 +131,7 @@ The following primary benchmark sizes should be used for print sizing:
 <div class="content-33 content-first">
 
 ### Color
-Minicons should always be one color. If used over a color field, negative space should be knocked out. 
+Minicons should always be one color. If used over a color field, negative space should be knocked out.
 
 Although color usage is flexible, minicons should always be used in high contrast tones relative to the background to maximize legibility.
 
@@ -156,14 +156,40 @@ Although color usage is flexible, minicons should always be used in high contras
 <div class="content-33 content-first">
 
 ### Spacing
+
 Padding varies around minicons of various primary shapes. Square, vertically and horizontally rectangular, diagonal, and most complex minicons can fit within the relative padding bounding box. Circular and some complex icons should be slightly larger to offset the visual weight of surrounding negative space.
 
 </div>
 
 <div class="content-67 content-last">
-	
+
 ![Minicon spacing diagram]({{ site.baseurl }}/static/img/minicons/Minicons4_@2.png "Minicon spacing diagram")
 
+</div>
+
+<div class="content-33 content-first">
+
+### Animation
+
+In certain instances, minicons can be animated to aid communication or to
+reassure the user that an action is functioning as intended. Examples include
+saving or loading content. Depending on the context, the animated minicon
+follows the standards of the component that contains it, for example, the
+minicon follows the size and padding standards for buttons when placed inside
+a [button to indicate loading]({{site.github.url}}/page-components/buttons.html#animation)
+or follows standards of a form-level alert within an
+[alert message]({{site.github.url}}/page-components/form-fields.html#form-level-action).
+
+</div>
+
+<div class="content-67 content-last">
+{::nomarkdown}
+    <span class="cf-icon
+                 cf-icon-update
+                 cf-icon__before
+                 cf-icon__spin"
+          style="font-size: 30px;"></span>
+{:/nomarkdown}
 </div>
 
 <h2 id="asset-library">Asset Library<span class="cf-code-link"><a href="https://cfpb.github.io/cf-icons/docs/">View code <i class="cf-icon cf-icon-external-link"></i></a></span></h2>
@@ -177,7 +203,7 @@ Padding varies around minicons of various primary shapes. Square, vertically and
 ## Download
 
 <div class="content-50 content-first">
-    
+
 ### Minicon font
 Our full minicon set is available for desktop use as an icon font (.ttf). It can be accessed through programs like Illustrator and InDesign via the glyph panel.
 
@@ -189,7 +215,7 @@ Our full minicon set is available for desktop use as an icon font (.ttf). It can
 </div>
 
 <div class="content-50 content-last">
-    
+
 ### Vector files
 Each of our minicons is available for download as a vector (.svg) on The Noun Project, a platform that collects and catalogs icons that are created and uploaded by graphic designers from around the world.
 
