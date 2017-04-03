@@ -143,7 +143,8 @@ is functioning as intended.
 
 <button class="btn">
     Get your estimates
-    <span class="cf-icon
+    <span class="btn_icon__right
+                 cf-icon
                  cf-icon-update
                  cf-icon__after
                  cf-icon__spin"></span>
