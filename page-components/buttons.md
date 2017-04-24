@@ -141,7 +141,7 @@ is functioning as intended.
 <div class="content-67 content-last">
 {::nomarkdown}
 
-<button class="btn">
+<button class="btn btn__disabled">
     Get your estimates
     <span class="btn_icon__right
                  cf-icon

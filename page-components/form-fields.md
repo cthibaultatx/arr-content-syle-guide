@@ -460,7 +460,7 @@ Use [animated minicons]({{site.github.url}}/brand-guidelines/minicons.html#anima
 <div class="content-50 content-last">
 
 {::nomarkdown}
-<img src="{{site.github.url}}/static/img/forms/form-level-errors.png" />
+<img src="{{site.github.url}}/static/img/forms/form-level-action.png" />
 {:/nomarkdown}
 
 </div>

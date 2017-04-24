@@ -184,11 +184,21 @@ or follows standards of a form-level alert within an
 
 <div class="content-67 content-last">
 {::nomarkdown}
-    <span class="cf-icon
-                 cf-icon-update
-                 cf-icon__before
-                 cf-icon__spin"
-          style="font-size: 30px;"></span>
+    <div class="minicon-asset-lib">
+        <!-- empty div unfortunately required for layout spacing -->
+        <div class="minicon-assets-div"></div>
+        <div class="minicon-assets-div">
+            <h6>Update</h6>
+            <p>
+                <span class="cf-icon
+                             cf-icon-update
+                             cf-icon__before
+                             cf-icon__spin"></span>
+            </p>
+        </div>
+        <!-- empty div unfortunately required for right border -->
+        <div class="minicon-assets-div"></div>
+    </div>
 {:/nomarkdown}
 </div>
 
